@@ -10,3 +10,7 @@
 - Be able to interact with webapp
 - See metrics in prometheus
 - Create graphs in graphana
+
+## Stretch
+- Deploy CI/CD (jenkins to kube cluster)
+- Git repo to use semantic commits and release
