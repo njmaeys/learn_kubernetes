@@ -2,6 +2,7 @@
 
 ## Goals
 - Deploy kubernetes 
+    - [Getting Started](https://kubernetes.io/docs/setup/)
 - Deploy prometheus to kube cluster
 - Deploy graphana to kube cluster
 - Deploy webapp to kube cluster
