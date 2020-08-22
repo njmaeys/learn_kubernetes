@@ -1,0 +1,29 @@
+Master:
+  ImageTag: "lts"
+  ServiceType: NodePort
+  InstallPlugins:
+    - kubernetes:1.14.0
+    - workflow-job:2.31
+    - workflow-aggregator:2.6
+    - credentials-binding:1.17
+    - git:3.9.1
+    - filesystem_scm:2.1
+Agent:
+  Enabled: true
+  volumes:
+    - type: HostPath
+      hostPath: /Users
+      mountPath: /Users
+    - type: HostPath
+      hostPath: /var/run/docker.sock
+      mountPath: /var/run/docker.sock
+rbac:
+  install: true
+Persistence:
+  volumes:
+    - name: source-code
+      hostPath:
+        path: /Users
+  mounts:
+    - mountPath: /Users
+      name: source-code

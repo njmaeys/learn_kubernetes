@@ -1,19 +1,21 @@
 # Learn Kubernetes
 
 ## Goals
+- Have this all run on my Pi
 - Deploy kubernetes 
-    - [Getting Started](https://kubernetes.io/docs/setup/)
+  - [Getting Started](https://kubernetes.io/docs/setup/)
 - Deploy prometheus to kube cluster
 - Deploy graphana to kube cluster
 - Deploy webapp to kube cluster
 - Use helm to be able to deploy all of those
-    - Potential custom chart configs
+  - Potential custom chart configs
 - Be able to interact with webapp
 - See metrics in prometheus
 - Create graphs in graphana
 
 ## Stretch
 - Deploy CI/CD (jenkins to kube cluster)
+  - Trying out [Jenkins](https://winderresearch.com/local-jenkins-development-environment-on-minikube-on-osx/) on local machine.
 - Git repo to use semantic commits and release
-    - [Guidelines For Semantic Commits](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
-    - [Guidelines For Semantic Release](https://github.com/semantic-release/semantic-release)
+  - [Guidelines For Semantic Commits](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+  - [Guidelines For Semantic Release](https://github.com/semantic-release/semantic-release)
