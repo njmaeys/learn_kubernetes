@@ -2,7 +2,7 @@
 
 ## Goals
 - Have this all run on my Pi
-  - [Single node cluster](https://ubuntu.com/blog/single-node-kubernetes-on-raspberry-pi-microk8s-ubuntu)
+  - [Single node cluster](https://opensource.com/article/20/3/kubernetes-raspberry-pi-k3s)
   - [Multi node cluster](https://opensource.com/article/20/6/kubernetes-raspberry-pi)
 - Deploy kubernetes 
   - [Getting Started](https://kubernetes.io/docs/setup/)
