@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: dummy-js-envconfig
-  labels:
-    app: dummy-js
-data:
-  MY_DUMMY_ENV: "Val from config-map"

@@ -3,6 +3,7 @@
 ## Goals
 - Have this all run on my Pi
   - [Single node cluster](https://opensource.com/article/20/3/kubernetes-raspberry-pi-k3s)
+  - [Or This](https://kubernetes.io/blog/2015/12/creating-raspberry-pi-cluster-running/)
   - [Multi node cluster](https://opensource.com/article/20/6/kubernetes-raspberry-pi)
 - Deploy kubernetes 
   - [Getting Started](https://kubernetes.io/docs/setup/)

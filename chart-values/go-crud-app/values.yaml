@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-crud-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: go-crud-app
+  template:
+    metadata:
+      labels:
+        app: go-crud-app
+    spec:
+      containers:
+      - name: go-crud-app
+        image: njmaeys/go-crud-app:0.0.1
+        imagePullPolicy: IfNotPresent
+        ports:
+          - containerPort: 10000
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 10000
+            scheme: HTTP
+          initialDelaySeconds: 5
+          periodSeconds: 15
+          timeoutSeconds: 5
+        readinessProbe:
+          httpGet:
+            path: /readiness
+            port: 10000
+            scheme: HTTP
+          initialDelaySeconds: 5
+          timeoutSeconds: 1
