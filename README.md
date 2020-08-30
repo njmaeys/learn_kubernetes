@@ -3,17 +3,14 @@
 ## Goals
 - Have this all run on my Pi
   - [Single node cluster](https://opensource.com/article/20/3/kubernetes-raspberry-pi-k3s)
-  - [Or This](https://kubernetes.io/blog/2015/12/creating-raspberry-pi-cluster-running/)
-  - [Multi node cluster](https://opensource.com/article/20/6/kubernetes-raspberry-pi)
 - Deploy kubernetes 
   - [Getting Started](https://kubernetes.io/docs/setup/)
 - Deploy prometheus to kube cluster
 - Deploy graphana to kube cluster
 - Deploy webapp to kube cluster
+  - [Go CRUD app](https://tutorialedge.net/golang/creating-restful-api-with-golang/)
 - Use helm to be able to deploy all of those
   - Potential custom chart configs
-- Be able to interact with webapp
-  - Simple [Golang](https://www.callicoder.com/deploy-containerized-go-app-kubernetes/) application
 - See metrics in prometheus
 - Create graphs in graphana
 
