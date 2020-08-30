@@ -16,7 +16,7 @@
 
 ## Stretch
 - Deploy CI/CD (jenkins to kube cluster)
-  - Trying out [Jenkins](https://appfleet.com/blog/how-to-set-up-jenkins-on-kubernetes/) on local machine.
+  - Trying out [Jenkins](https://phoenixnap.com/kb/how-to-install-jenkins-kubernetes)
 - Git repo to use semantic commits and release
   - [Guidelines For Semantic Commits](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
   - [Guidelines For Semantic Release](https://github.com/semantic-release/semantic-release)

@@ -5,9 +5,9 @@ metadata:
 spec:
   type: NodePort
   ports:
-    - name: jenkins
-      port: 8080
+    - port: 8080
       targetPort: 8080
+      nodePort: 30001
   selector:
     app: jenkins
   externalIPs:
